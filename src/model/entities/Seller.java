@@ -74,6 +74,8 @@ public class Seller implements Serializable {
         this.department = department;
     }
 
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
