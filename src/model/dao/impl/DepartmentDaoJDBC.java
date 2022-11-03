@@ -28,7 +28,6 @@ public class DepartmentDaoJDBC implements DepartmentDao {
                     Statement.RETURN_GENERATED_KEYS
 
             );
-
             st.setString(1, obj.getName());
 
             int rowsAffected = st.executeUpdate();
